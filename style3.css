@@ -1,0 +1,191 @@
+@charset "UTF-8";
+
+article,  footer, header, section {
+	display: block;
+}
+
+html, body, h1, h2, h3, ul, li, a, p,
+article,  footer, header, main, section {
+	padding: 0;
+	margin: 0;
+}
+
+
+header {
+  background-color:#ffb3b3;
+}
+
+
+
+.banner{
+	background-color:pink;
+	color: black;
+	padding: 10px 20px;
+}
+
+body {
+  background-repeat:no-repeat;
+  background-size:cover;
+	width: 960px;
+	margin-left: auto;
+	margin-right: auto;
+	background-color: #333;
+	font-family:century gothic;
+	font-size: 15px
+}
+
+nav {
+	margin:15px 15px;
+	background-color:#ffff;
+	margin-left:0;
+	margin-right:0;
+	margin-bottom:10;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li a {
+	color: black;
+	display: block;
+	width: 120px;
+}
+
+li {
+	display: inline;
+	margin-left: 15px;
+	margin-right: 15px;
+	font-size: 20px;
+	font-family: century gothic;
+	border:solid #333;
+}
+
+section {
+	background-color: #fff;
+	margin-top: 100px;
+	margin-bottom:75px;
+	float:center;
+	background-position: left -0;
+}
+
+article {
+	background-color: white;
+	margin-top: 10px;
+	margin-bottom:10px;
+	 padding: 30px 0;
+	 float:cover;
+	 
+}
+
+main {
+	width: 960px;
+	float: center;
+	margin-bottom: 10px;
+	
+	
+}
+
+
+
+footer {
+	clear: both;
+	background-color: #ffff;
+	color: black;
+	padding: 5px 20px;
+        margin-bottom:50px;
+}
+
+
+.active {
+  background-color: #ffb3b3;
+}
+
+
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+  overflow: hidden;
+  background-color: #fff;
+}
+
+li {
+  float: left;
+}
+
+li a {
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+/* Change the link color to #111 (black) on hover */
+li a:hover {
+  background-color: #ffb3b3;
+}
+
+/* Add a gray right border to all list items, except the last item (last-child) */
+li {
+  border-right: 3px solid black;
+}
+
+li:last-child {
+  border-right: none;
+  border-right: 3px solid black;
+}
+
+h5{
+  border:solid black 3px;
+  padding:20px 20px;
+  margin-left:300px;
+  margin-right:300px;
+}
+
+video{
+margin:20px;
+}
+
+img src{
+  float:left;
+}
+
+footer:last-child {
+  border-right: none;
+}
+
+.navbar {
+  overflow: hidden;
+  position: fixed;
+  top: 0;
+  width: 960px;
+  margin-right:10px;
+  margin-top:10px;
+  margin-bottom:800px;
+}
+
+
+.navbar a {
+  float: center;
+  display: block;
+  color: black;
+  text-align: center;
+  padding: 14px 16px;
+  text-decoration: none;
+}
+
+
+.navbar a:hover {
+  background: #ffb3b3;
+  color:#333;
+}
+
+/* Main content */
+.main {
+  margin-top: 100px; /* Add a top margin to avoid content overlay */
+}
